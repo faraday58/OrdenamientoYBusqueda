@@ -8,7 +8,7 @@ namespace OrdenamientoYBusqueda
 {
     class Busqueda
     {
-        static int Directa(int[] A, int X )
+        public static int Directa(int[] A, int X )
         {
             int N = A.Length;
             for(int i=0; i< N; i++  )
